@@ -1,0 +1,13 @@
+layers:
+  - materials:
+      - "minecraft:rooted_dirt": 1
+    layers: 1
+id: "ROOTED_DIRT"
+ceiling: true
+spawnable:
+  - "minecraft:air"
+  - "minecraft:stone_slab"
+replaceable:
+  - "minecraft:stone"
+  - "minecraft:dirt"
+  - "minecraft:grass_block"

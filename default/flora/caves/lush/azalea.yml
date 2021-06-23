@@ -1,0 +1,14 @@
+layers:
+  - materials:
+      - "minecraft:azalea": 2
+      - "minecraft:flowering_azalea": 1
+    layers: 1
+
+id: "AZALEA"
+spawnable:
+  - "minecraft:dirt"
+  - "minecraft:moss_block"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:moss_carpet"
+ceiling: false

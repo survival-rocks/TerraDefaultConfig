@@ -39,7 +39,9 @@ flora:
   - density: 12
     items:
       - STALACTITE: 1
+      - STALACTITE_2: 1
       - STALAGMITE: 1
+      - STALAGMITE_2: 1
       - CEILING_ICE: 1
     y:
       min: 15
@@ -47,13 +49,16 @@ flora:
   - density: 8
     items:
       - STALACTITE: 1
+      - STALACTITE_2: 1
       - STALAGMITE: 1
+      - STALAGMITE_2: 1
     y:
       min: 8
       max: 14
   - density: 8
     items:
       - STALACTITE: 1
+      - STALACTITE_2: 1
       - CEILING_ICE: 1
     y:
       min: 63

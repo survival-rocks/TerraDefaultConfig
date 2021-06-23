@@ -1,0 +1,26 @@
+layers:
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 1
+      - "minecraft:flowering_azalea_leaves[persistent=true]": 1
+    layers: 1
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 1
+      - "minecraft:flowering_azalea_leaves[persistent=true]": 1
+    layers: 1
+  - materials:
+      - "minecraft:azalea_leaves[persistent=true]": 1
+      - "minecraft:flowering_azalea_leaves[persistent=true]": 1
+      - "minecraft:air": 2
+    layers: 1
+id: "CEILING_LEAVES_LUSH"
+ceiling: true
+spawnable:
+  - "minecraft:stone"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:grass_block"
+  - "minecraft:moss_block"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:stone_slab"

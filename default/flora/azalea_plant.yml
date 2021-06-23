@@ -1,0 +1,14 @@
+layers:
+  - materials:
+      - "minecraft:flowering_azalea": 1
+      - "minecraft:azalea": 2
+    layers: 1
+id: "AZALEA_PLANT"
+search: DOWN
+max-placements: 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:rooted_dirt"
+replaceable:
+  - "minecraft:air"

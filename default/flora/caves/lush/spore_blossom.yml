@@ -1,0 +1,13 @@
+layers:
+  - materials:
+      - "minecraft:spore_blossom": 1
+    layers: 1
+
+id: "SPORE_BLOSSOM"
+spawnable:
+  - "minecraft:dirt"
+  - "minecraft:moss_block"
+  - "minecraft:stone"
+replaceable:
+  - "minecraft:air"
+ceiling: true

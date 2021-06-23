@@ -34,11 +34,16 @@ flora:
     y:
       min: 62
       max: 180
-  - density: 10
+  - density: 20
     items:
-      - CEILING_LEAVES: 4
-      - STALACTITE: 1
-      - SHROOMLIGHT: 1
+      - CEILING_LEAVES_LUSH: 2
+      - GLOW_BERRIES: 2
+      - ROOTED_DIRT: 8
+      - HANGING_ROOTS: 8
+      - MOSS: 5
+      - STALACTITE: 2
+      - STALACTITE_2: 2
+      - STALACTITE_3: 1
     y:
       min: 62
       max: 84

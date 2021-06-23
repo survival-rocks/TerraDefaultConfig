@@ -1,0 +1,8 @@
+id: "AZALEA"
+scripts:
+  - Azalea__1: 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:rooted_dirt"
+y-offset: -2

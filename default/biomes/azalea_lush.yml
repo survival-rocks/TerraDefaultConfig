@@ -1,0 +1,80 @@
+extends: "PLAINS_ABSTRACT"
+id: "AZALEA_LUSH"
+color: 0x8db360
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - DEEPSLATE: 20
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+biome-noise:
+  type: OpenSimplex2
+  frequency: 0.01
+vanilla: LUSH_CAVES
+tags:
+  - "LAND"
+  - "RIVER_ERODE"
+structures:
+  - VILLAGE_PLAINS
+  - OUTPOST
+carving:
+  LUSH_CAVES: 80
+  LUSH_CAVES_CLAY: 30
+flora:
+  - density: 1
+    y:
+      min: 10
+      max: 56
+    items:
+      - GLOW_LICHEN: 1
+  - density: 40
+    items:
+      - MOSS: 20
+    y:
+      min: 14
+      max: 56
+  - density: 60
+    items:
+      - GLOW_BERRIES: 35
+      - GRASSES: 30
+    y:
+      min: 14
+      max: 56
+  - density: 6
+    items:
+      - AZALEA: 5
+      - CEILING_LEAVES_LUSH: 6
+      - DRIPLEAF: 1
+      - DRIPLEAF_SMALL: 2
+      - HANGING_ROOTS: 5
+      - ROOTED_DIRT: 4
+      - SPORE_BLOSSOM: 1
+    y:
+      min: 14
+      max: 56
+  - density: 20
+    y:
+      min: 62
+      max: 84
+    items:
+      - GRASS: 100
+      - AZALEA_PLANT: 1
+trees:
+  - density: 0.75
+    items:
+      - DRIPSTONE: 9
+      - GEODE: 1
+    y:
+      min: 48
+      max: 49
+  - density: 0.15
+    items:
+      AZALEA: 1
+    y:
+      min: 62
+      max: 128
+
+# Carving and ores covered by super biome

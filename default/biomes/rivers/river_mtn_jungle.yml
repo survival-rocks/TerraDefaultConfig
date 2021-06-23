@@ -43,6 +43,8 @@ flora:
       - VINES: 2
       - VINES_TALL: 1
       - STALACTITE: 1
+      - STALACTITE_2: 1
+      - STALACTITE_3: 1
       - SHROOMLIGHT: 2
     y:
       min: 62

@@ -44,7 +44,9 @@ flora:
       - VINES: 2
       - VINES_TALL: 1
       - STALACTITE: 1
+      - STALACTITE_2: 1
       - STALAGMITE: 1
+      - STALAGMITE_2: 1
       - SHROOMLIGHT: 2
     y:
       min: 15
@@ -53,6 +55,7 @@ flora:
     items:
       - CEILING_LEAVES: 6
       - STALACTITE: 1
+      - STALACTITE_2: 1
       - SHROOMLIGHT: 2
     y:
       min: 63
@@ -60,6 +63,7 @@ flora:
   - density: 5
     items:
       - STALACTITE: 1
+      - STALACTITE_2: 1
       - STALAGMITE: 2
       - SHROOMLIGHT: 1
     y:

@@ -21,7 +21,7 @@ blend:
     elevation: 4
 
 beta:
-  carving: false
+  carving: true
 
 vanilla:
   mobs: true
@@ -107,6 +107,7 @@ noise:
 
 variables:
   base: 63
+
 biomes:
   type: PIPELINE
   biome: OASIS
@@ -150,6 +151,7 @@ biomes:
             - TUNDRA: 4 # Super cold biomes
             - TAIGA: 2 # Taiga buffer zone
             - PLAINS: 8 # Temperate biomes
+            - AZALEA_LUSH: 3 # LUSH!!
             - JUNGLE: 12 # Warm biomes
           noise: *climate # Use climate noise
       - mutate:

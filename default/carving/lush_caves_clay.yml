@@ -1,0 +1,46 @@
+id: LUSH_CAVES_CLAY
+extends: CAVE_ABSTRACT
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+      - "minecraft:iron_ore"
+      - "minecraft:coal_ore"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials: { "minecraft:lava": 1 }
+        y: 8
+  outer:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: {"minecraft:stone": 1}
+        y: 255
+      - materials: { "minecraft:stone": 5, "minecraft:moss_block": 8 }
+        y: 55
+  top:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: {"minecraft:stone": 1}
+        y: 255
+      - materials: { "minecraft:stone": 1, "minecraft:moss_block": 10 }
+        y: 55
+  bottom:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+      - "minecraft:coal_ore"
+      - "minecraft:iron_ore"
+    layers:
+      - materials: {"minecraft:stone": 1}
+        y: 255
+      - materials: { "minecraft:moss_block": 1, "minecraft:clay": 10 }
+        y: 55
