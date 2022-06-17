@@ -5,7 +5,6 @@ layers:
 id: "MOSS"
 
 spawnable:
-  - "minecraft:stone"
   - "minecraft:dirt"
   - "minecraft:grass_block"
   - "minecraft:moss_block"

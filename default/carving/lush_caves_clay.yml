@@ -24,6 +24,8 @@ palette:
         y: 255
       - materials: { "minecraft:stone": 5, "minecraft:moss_block": 8 }
         y: 55
+      - materials: { "minecraft:deepslate": 1 }
+        y: 9
   top:
     replace-blacklist: false
     replace:
@@ -33,6 +35,8 @@ palette:
         y: 255
       - materials: { "minecraft:stone": 1, "minecraft:moss_block": 10 }
         y: 55
+      - materials: { "minecraft:deepslate": 1 }
+        y: 9
   bottom:
     replace-blacklist: false
     replace:
@@ -44,3 +48,5 @@ palette:
         y: 255
       - materials: { "minecraft:moss_block": 1, "minecraft:clay": 10 }
         y: 55
+      - materials: { "minecraft:deepslate": 1 }
+        y: 9
